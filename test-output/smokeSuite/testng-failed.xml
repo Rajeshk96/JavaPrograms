@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smokeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestRunner5(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+        <include name="regressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.SDET25A.ProductModule.ProductModuleScenariosAndCases">
+        <methods>
+          <include name="configBS"/>
+          <include name="SearchProductByCommissionRate"/>
+          <include name="SearchProductByProductNameTesting"/>
+          <include name="SearchProductByProductNo"/>
+          <include name="SearchProductByQtyPerUnit"/>
+          <include name="SearchProductByPartNumber"/>
+          <include name="SearchProductByQtyInStock"/>
+        </methods>
+      </class> <!-- com.crm.SDET25A.ProductModule.ProductModuleScenariosAndCases -->
+    </classes>
+  </test> <!-- TestRunner5(failed) -->
+</suite> <!-- Failed suite [smokeSuite] -->

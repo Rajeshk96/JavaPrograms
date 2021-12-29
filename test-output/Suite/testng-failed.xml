@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test4(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.SDET25A.ProductModule.ProductModuleScenariosAndCases">
+        <methods>
+          <include name="configBS"/>
+          <include name="SearchProductByProductNameTesting"/>
+          <include name="SearchProductByProductNo"/>
+        </methods>
+      </class> <!-- com.crm.SDET25A.ProductModule.ProductModuleScenariosAndCases -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
